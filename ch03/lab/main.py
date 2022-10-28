@@ -103,6 +103,7 @@ def draw_shape(num_sides):
         y = side_length * math.sin(theta) + offset
         coordinates.append((x,y))
 
+    print(coordinates)
     pygame.draw.polygon(surface, 'red', coordinates)
     pygame.display.flip()
 
