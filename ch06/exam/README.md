@@ -10,7 +10,7 @@ The program does minimal arguments checks and error handling.
 
 ## REFERENCES
 The formula to draw regular polygons was obtained from the chapter 03 lab instructions and applied in a creative way.
-It was ported to work on Turgle instead of pygame.
+It was ported to work on Turtle instead of pygame.
 
 ## MISCELLANEOUS COMMENTS
 If you are interested consider tinkering with the outer loop and making the offset change to create 'tubes' of shapes.
