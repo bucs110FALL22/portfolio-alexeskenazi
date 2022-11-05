@@ -3,15 +3,15 @@ from Rectangle import Rectangle
 
 print('Testing Rectangle')
 r = Rectangle(10, 10, 10, 10)
-assert ((r.x, r.y, r.height, r.width) == (10, 10, 10, 10))
+assert ((r.x, r.y, r.width, r.height) == (10, 10, 10, 10))
 r = Rectangle(-1, 1, 1, 1)
-assert ((r.x, r.y, r.height, r.width) == (0, 1, 1, 1))
+assert ((r.x, r.y, r.width, r.height) == (0, 1, 1, 1))
 r = Rectangle(1, -1, 1, 1)
-assert ((r.x, r.y, r.height, r.width) == (1, 0, 1, 1))
+assert ((r.x, r.y, r.width, r.height) == (1, 0, 1, 1))
 r = Rectangle(1, 1, -1, 1)
-assert ((r.x, r.y, r.height, r.width) == (1, 1, 0, 1))
+assert ((r.x, r.y, r.width, r.height) == (1, 1, 0, 1))
 r = Rectangle(1, 1, 1, -1)
-assert ((r.x, r.y, r.height, r.width) == (1, 1, 1, 0))
+assert ((r.x, r.y, r.width, r.height) == (1, 1, 1, 0))
 
 
 print('Testing Surface')

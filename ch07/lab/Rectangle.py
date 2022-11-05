@@ -1,12 +1,12 @@
 class Rectangle:
     # constructor
-    def __init__(self, x, y, h, w):
+    def __init__(self, x, y, width, height):
         '''
         constructor
         x: (int) the x coordinate of its upper left position
         y: (int) the y coordinate of its upper left position
-        h: (int) the height of the rectangle
-        w: (int) the width of the rectangle
+        width: (int) the width of the rectangle
+        height: (int) the height of the rectangle
         '''
 
         if x > 0:
@@ -19,13 +19,13 @@ class Rectangle:
         else:
             self.y = 0
 
-        if h > 0:
-            self.height = h
+        if height > 0:
+            self.height = height
         else:
             self.height = 0
 
-        if w > 0:
-            self.width = w
+        if width > 0:
+            self.width = width
         else:
             self.width = 0    
 
@@ -34,7 +34,10 @@ class Rectangle:
         convert to string
         return (str) a string representation of the object.
         '''
-        return '(x: ' + str(self.x) + ', y: ' + str(self.y) + '), width: ' + str(self.height) + ', height: ' + str(self.width) + ')'
+        return '(x: ' + str(self.x) + \
+              ', y: ' + str(self.y) + \
+              ', width: ' + str(self.height) + \
+              ', height: ' + str(self.width) + ')'
 
 
 r1 = Rectangle(10, 20, 100, 200)
